@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from "../../Header/header"
-import './blog.css'
+import Header from "./header"
 
 export default function blog() {
     return (

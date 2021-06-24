@@ -1,0 +1,48 @@
+/* For pdf */
+ /* .react-pdf__Page {
+    margin-top: 10px;
+    
+  }
+  .react-pdf__Page__textContent {
+    border: 1px solid darkgrey;
+    box-shadow: 5px 5px 5px 1px #ccc;
+    border-radius: 5px; 
+    
+  }
+  
+  .react-pdf__Page__annotations.annotationLayer {
+    padding: 20px;
+   
+   
+    
+  } */
+  
+  .react-pdf__Page__canvas {
+    /* margin: 0 auto; */
+    /* margin-top: auto;
+    margin-left: 350px;
+    padding-top: 100px; */
+    margin: 0 auto;
+    width: 90% !important;
+    height: 100% !important;
+
+  }  
+
+
+  /* For all pages */
+.all-page-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid cornflowerblue;
+    display: inline-block;
+  height: 100%;
+  width: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+h2{
+    text-align: center;
+}
