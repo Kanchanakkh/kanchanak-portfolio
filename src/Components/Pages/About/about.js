@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
-import { Container, Row, Col, Carousel,
-    CarouselItem,
-    CarouselControl,
-    CarouselIndicators, CarouselCaption} from 'reactstrap'
+import React from 'react'
+import { Container, Row, Col} from 'react-bootstrap'
+// import YouTube from 'react-youtube'
+import Carousel from 'react-bootstrap/Carousel'
 import './about.css'
 
 import welcomeSign from '../../../Images/welcome.png'
@@ -17,153 +16,110 @@ import pic6 from '../../../Images/Picture6.jpeg'
 const items = [
     {
       src: pic1,
-      caption: "Sketches of myself (1) and my good friend's sister (2)",
-      
+      caption: "\"Sketches of myself (1) and my good friend's sister (2)\"",
+      altText: "Two sketches of myself and my good friend's sister"
     },
     {
-        src: pic2,
-        
-        caption: 'Another sketch of isolated hut near a mountain',
-        
+        src: pic2,  
+        caption: '"Another sketch of isolated hut near a mountain"',
+        altText: "A sketch of a hut"
       },
       {
-        src: pic3,
-        
-        caption: 'Slide 1',
-        
+        src: pic3, 
+        caption: '"Beautiful seaside in Monterey, CA featured clear light-blue sky"',
+        altText: "Beautiful Seaside in Montery, CA captured under nice blue sky "
       },
       {
         src: pic4,
-        
-        caption: 'Slide 1',
-        
+        caption: '"My kind kitty who enjoys stretching its furry body"',
+        altText: "My kitty stretched its body"
       },
       {
-        src: pic5,
-        
-        caption: 'Slide 1',
-        
+        src: pic5,       
+        caption: '"An oil painting of my hands that I did few years ago"',
+        altText: "An oil painting of my hands on canvas"
       },
       {
-        src: pic6,
-        
-        caption: 'Slide 1',
-        
+        src: pic6,   
+        caption: '"Took a break after skiing at Lake Tahoe skiing resort "',
+        altText: "I sat on the bench, relaxing after skiing at Lake Tahoe skiing resort"
       },
               
     
   ];
+//   const opts ={
+//     height: '390',
+//     width: '640',
+//     playerVars: {
+//       // https://developers.google.com/youtube/player_parameters
+//       autoplay: 1,
+//     },
+//   }
 const About = () => {
-    
-      const [activeIndex, setActiveIndex] = useState(0);
-      const [animating, setAnimating] = useState(false);
-    
-      const next = () => {
-        if (animating) return;
-        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-        setActiveIndex(nextIndex);
-      }
-    
-      const previous = () => {
-        if (animating) return;
-        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-        setActiveIndex(nextIndex);
-      }
-    
-      const goToIndex = (newIndex) => {
-        if (animating) return;
-        setActiveIndex(newIndex);
-      }
-    
-      const slides = items.map((item) => {
-        return (
-          <CarouselItem
-            className="custom-tag"
-            tag="div"
-            key={item.src}
-            onExiting={() => setAnimating(true)}
-            onExited={() => setAnimating(false)}
-          >
-               <div className='carouselCont'>
-          <div className='ImgCont'>
-               <img width='100%' className="img" src={item.src} alt={item.altText} />
-               </div>
-               <div className='TextCont'>
-            <CarouselCaption className="text-danger" captionText={item.caption}  />
-          </div>
-          </div>
-          </CarouselItem>
-        );
-      });
-    
+     
     return (
         <>
-        <div className="banner">
-        <h2 >Welcome to Kanchanak's Website! </h2>
+            <div className="banner">
+                <h2 >Welcome to Kanchanak's Website! </h2>
         
-        <img id="welcomeSign" src={welcomeSign} alt="Little welcome sign"/>
+                <img id="welcomeSign" src={welcomeSign} alt="Little welcome sign"/>
 
-        </div>
+            </div>
                 
-<hr id='horizontalBorder' />
+            <hr id='horizontalBorder' />
         
-        <Container className="container"> 
-                
-            
-           
+            <Container fluid> 
+                <Row>
+                    <Col md="11" className="aboutMeBackground verticalBorder" >
+                        <h4>About Me:</h4>
+                        <p>
+                        Hello, I am Kanchanak Khat. I graduated from San Jose State University (SJSU) with a Bachelor's Degree in Computer Science in December 2020.
+                        I started my journey into Computer Science with a curious mindset after remembering the time that I first used a computer when I was 12-year-old. 
+                        One of my most nostalgic memories was playing with Microsoft Windows XP without any Internet connection on my first DELL desktop. I would spend time playing with application and system software 
+                        for hours and that's how I began wearing glasses (occasionally), my friend. I recalled the time that I enjoyed listening to Microsoft pre-selected music on its playlist from Windows Media Player.
+                        I found this software to be impressive as I could burn music or video into and from my CD/DVD and I was also fascinated by how it enabled me to change patterns of visualization of music that I played; it was really fun. 
+                        <br/><br/>
+                        This reminds me of this song that I played nonstop, called "Like Humans Do" by David Byrne.
+                        My favorite thing to do that I had been doing for a while was pencil-drawing random things mostly, portraits & sceneries. When it comes to art, I love working on an oil painting the most. I think this is because of its smooth, glossy colors 
+                        and it feels satisfying every time I apply oil paints on a blank canvas. Looking at wonderfully stunning sceneries that our mother-earth offers to us does make me feel wholeheartedly thankful to be alive that's why I also enjoy walking and immersing myself in nature. 
+                        Ah! You must have also wondered why there are some kitty icons on my site. 
+                        Well, you can tell that I am a big fan of cats. Yes, I also own a very adorable cat who loves looking at birds so much. Well, what else can I say about myself?. Oh, I just realized that skiing is fun after all the several attempts of fallings and hurting my legs. 
+                        Here's a touching quote I know from one of my favorite tv shows: <i>"Pain is the proof that you are alive"</i>
+                        <br/><br/>
+                        Feel free to check out my image carousel down below and other pages. Thank you for visiting my site! 🙂
 
-        <Row>
-        <Col xs="6" className="aboutMeBackground verticalBorder" >
-            <h4>About Me:</h4>
-            <p>
-                Hello, I am Kanchanak Khat. I graduated from San Jose State University with a Bachelor's Degree in Computer Science in December, 2020.
-                <br/>
-                I started out my journey into Computer Science with a curious mindset after remembering the time that I first used computer when I was 12 year-old.
-                My vivid memory with my first desktop was playing with Microsoft Windows 2003 without any Internet connection. I would play around with both application and system software
-                for hours and that's how I began wearing glasses, my friend.
-            </p>
-        </Col>
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <h4>Profile image</h4>
+                        <img className="profileImage" src={profileImage} alt="Kanchanak profile"/>
+                        <caption id="caption"><h6>This is me in front of SJSU's Tower Hall</h6></caption>
 
-        <Col xs="6">
-            <h4>Images</h4>
-            <img className="profileImage"src={profileImage}></img>
-            <caption id="caption">This is me in front of SJSU's Tower Hall</caption>
+                    </Col>
+                </Row>
+                <Row>
+                    <h4>A tiny glimpse of my life on the slideshow</h4>
 
-        </Col>
-      </Row>
-      <div>
-      {/* <style>
-        {
-          `.custom-tag {
-            // width:100%; 
-            // height: 500px 
-//             height: auto;
-//   width: auto;
-            //   object-fit: contain;
-            //   height: 100vh;
-            max-height: 100%;
-    max-width: 100%;
-              background: black;
-            //   overflow: hidden;
-
-            }`
-        }
-      </style> */}
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-      >
-        <CarouselIndicators className='carousel' items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-      </Carousel>
-    </div>
-      <footer>
-          THE END!!!
-      </footer>
-        </Container>
+                    <Carousel classNam="carousel">
+                        {items.map((item) => (
+                            <Carousel.Item interval={5000} key={item.src}>
+                                <img className="d-block w-100" src={item.src} alt={item.altText} />
+                                <Carousel.Caption>
+                                <h6 id="captionText"> <i>{item.caption}</i></h6>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
+                </Row>
+      
+     
+{/* <Row className="youtube">
+<YouTube videoId="CzyeBTjRg6A" opts={opts}  />
+</Row> */}
+            </Container>
+        
         </>
     )
 }

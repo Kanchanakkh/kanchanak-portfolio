@@ -5,7 +5,7 @@ import lotus1 from './../../../Images/lotus1.png'
 import lotus2 from './../../../Images/lotus2.png'
 
 
-export default function header() {
+const Header = () => {
     return (
         <div className="header">
             <div className="headerTitles">
@@ -19,3 +19,4 @@ export default function header() {
         </div>
     )
 }
+export default Header

@@ -1,0 +1,11 @@
+footer{
+    position: relative;
+    /* bottom: 0; */
+   margin-top: 500px;
+   max-height:fit-content;
+   /* margin: 0 auto; */
+   background-color: bisque;
+   text-align: center; 
+   
+}
+

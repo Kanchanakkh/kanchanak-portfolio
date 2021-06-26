@@ -1,7 +1,9 @@
 .banner{
-   display: flex;
+    display: flex;
     flex-direction: row;
- justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
 
 
 }
@@ -9,13 +11,17 @@
     border-right: 6px solid cornflowerblue; 
     background-color: skyblue;
     padding: 10px;
-  vertical-align: middle;
-  width: 40%;
+    vertical-align: middle;
+  /* width: 40%; */
   /* height: auto; */
-  
-   
+  /* width: auto; */
+  /* display: flex; */
+  /* flex-direction: column; */
+margin: auto;  
 }
-
+Col, p{
+    text-align: left;
+}
  h4{
      text-align: center;
  }   
@@ -33,108 +39,66 @@
     
 } 
 .profileImage{
-    /* display: flex;
-    width: 200px;
-    height: auto;
-    */
-    /* border-radius: 50%; */
-
-    /* justify-content: center;  */
+    
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: auto; 
-
-  
-  
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto; 
+    box-shadow: 5px 5px 5px 1px #ccc;  
 }
 #caption{
     display: block; 
  
-  text-align: center;
+    text-align: center;
 
 }
 .carousel{
     width: 100%;
-  height: 100%;
+    height: 100%;
+  /* display: block; */
+  /* align-items: center; */
+    margin: 20px auto;
+  /* margin: auto; */
+  ;
+  
 }
-/* .img{
-    display: flex;
-    display: block; 
-    object-fit:cover;
-
-    max-height:550px;
-    max-width:550px;
-    justify-content: center;
-} */
-.carouselCont{
-    background-color: #f1f2ed;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center;
-  }
-  
-  .ImgCont{
-    float: left !important;
-    width: 50%;
-
-  }
-  
-  .TextCont{
-    padding: 1% !important;
-    position: relative;
-    height: 50%;
-    right: 4%;
-    width: 50%;
-    font-size: 25px;
-  }
-  
-  .carousel-caption{
-    position: relative !important;
-    top: 0 !important;
-     height: 100% !important;
-    width: 75%!important;
-  }
+ @media only screen and (min-width: 300px) {
+    .carousel {
+        width: 600px;
+        height: 600px; 
+} 
+ }
+ 
+  .carousel-caption{ 
+    
+    position: absolute;
+    right: 15%;
+    bottom: 15px;
+    left: 15%; 
 
 
-@media only screen and (max-width: 576px) {
-    .carousel-caption {
-        
-            font-size: 1rem;
-        
-    }
-}
-
-
-  
-  .TextCont p{
-    color: black !important;
+   }  
    
-  }
-  
-  .TextCont h6{
-    color: black !important;
-  }
-  .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
+   
+#captionText{
+    text-align: center;
+    opacity: 1;
+    /* font-size: 1px;    */  
 }
+@media only screen and (max-width: 375px) {
+    #captionText {
+        
+        font-size: 15px;  
+} 
+ }
 
-.carousel-control-next-icon:after{
-  content: '>';
-  font-size: 55px;
-  color: black;
-}
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: white;
-}
-
-  
+@media only screen and (min-width: 400px) {
+    .carousel-control-prev,
+.carousel-control-next {          
+         
+          bottom: 50%;
+    
+}  
+ }
