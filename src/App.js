@@ -30,7 +30,7 @@ const App = () => {
               <Route path="/resume" component={Resume}></Route>
               <Route path="/contact" component={Contact}></Route>
               <Route path="/letuscode" component={Letuscode}></Route>
-              <Route path="/Kanchanak-portfolio" exact  component={About} ></Route>
+              <Route path="/" exact  component={About} ></Route>
 
               <Route render={() =>(
                 <h3>Oops page not found!</h3>

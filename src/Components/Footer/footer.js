@@ -1,16 +1,19 @@
 import React from 'react'
 import './footer.css'
-
+import {Container, Row} from 'react-bootstrap'
 const Footer = () => {
     return (
         <>
-        <div>
-            <footer>     
-                <div><h6>Copyright ©️ 2021 Kanchanak khat</h6></div>
-                <div>Icons and sticker are made with ❤️ by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            </footer>
-        
-        </div>
+        <footer> 
+            <Container>
+                <Row className="justify-content-md-center">
+
+                    <h6>Copyright ©️ 2021 Kanchanak khat</h6>
+                    <span>Icons and sticker are made with ❤️ by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+                </Row>
+            </Container>
+            </footer> 
+           
         </>
     )
 }
