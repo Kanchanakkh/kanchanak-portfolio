@@ -1,9 +1,11 @@
 {
-  "homepage": "https://Kanchanakkh.github.io/",
+  "homepage": "https://Kanchanakkh.github.io/kanchanak-portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sanity/cli": "^2.12.2",
+    "@sanity/client": "^2.11.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -15,7 +17,6 @@
     "react-pdf": "^5.3.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-tsparticles": "^1.29.2",
     "react-youtube": "^7.13.1",
     "reactstrap": "^8.9.0",
     "web-vitals": "^1.1.2"

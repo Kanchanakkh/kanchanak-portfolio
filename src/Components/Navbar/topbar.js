@@ -26,7 +26,7 @@ const Topbar = () => {
                                 <div className="Name">
                                     <img className="topImgLeft" src={kittyLogoLeft} alt="Little cat hero logo"/>
                         
-                                    <Nav.Link style={{color: 'black'}} href="/">Kanchanak</Nav.Link>
+                                    <Nav.Link style={{color: 'black'}} href="/kanchanak-portfolio">Kanchanak</Nav.Link>
                                 </div>
                              </Navbar.Brand>
                 
