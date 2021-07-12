@@ -1,5 +1,5 @@
 import React from 'react'
-import "./header.css"
+import "./styles.css"
 import lotusHeader from './../../../Images/lotus-header.jpg'
 import lotus1 from './../../../Images/lotus1.png'
 import lotus2 from './../../../Images/lotus2.png'
