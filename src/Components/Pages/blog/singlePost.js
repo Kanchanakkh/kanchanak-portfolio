@@ -34,7 +34,9 @@ const serializers = {
             //   800px
             // `}
             src={urlFor(asset)}
+
             alt="images of traffic in the city and grilled fish"
+
           />
         </picture>
       )
