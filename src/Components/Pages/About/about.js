@@ -73,17 +73,15 @@ const About = () => {
                     <Col md="11" className="aboutMeBackground verticalBorder" >
                         <h4>About Me:</h4>
                         <p>
-                        Hello, I am Kanchanak Khat. I graduated from San Jose State University (SJSU) with a Bachelor's Degree in Computer Science in December 2020.
-                        I started my journey into Computer Science with a curious mindset after remembering the time that I first used a computer when I was 12-year-old. 
-                        One of my most nostalgic memories was playing with Microsoft Windows XP without any Internet connection on my first DELL desktop. I would spend time playing with application and system software 
-                        for hours and that's how I began wearing glasses (occasionally), my friend. I recalled the time that I enjoyed listening to Microsoft pre-selected music on its playlist from Windows Media Player.
-                        I found this software to be impressive as I could burn music or video into and from my CD/DVD and I was also fascinated by how it enabled me to change patterns of visualization of music that I played; it was really fun. 
+                        Hello, I am Kanchanak Khat. I graduated from San Jose State University (SJSU) with a Bachelor's Degree in Computer Science in December 2020. 
+                        I started my journey into Computer Science with a curious mindset after remembering the time when I first used a computer as a 12-year-old. 
+                        One of my most nostalgic memories was playing with Microsoft Windows XP without any Internet connection on my first DELL desktop. I would spend time
+                        playing with applications and system software for hours and that's how I began wearing glasses. I recalled the time when I enjoyed listening to pre-selected  
+                        Microsoft music on its playlist from the Windows Media Player. I found this software to be impressive as I could burn music and videos to and from my CD/DVD. 
+                        I was also fascinated by how it enabled me to change patterns of visualization of music that I played. It was really fun! 
                         <br/><br/>
-                        This reminds me of this song that I played nonstop, called "Like Humans Do" by David Byrne.
-                        My favorite thing to do that I had been doing for a while was pencil-drawing random things mostly, portraits & sceneries. When it comes to art, I love working on an oil painting the most. I think this is because of its smooth, glossy colors 
-                        and it feels satisfying every time I apply oil paints on a blank canvas. Looking at wonderfully stunning sceneries that our mother-earth offers to us does make me feel wholeheartedly thankful to be alive that's why I also enjoy walking and immersing myself in nature. 
-                        Ah! You must have also wondered why there are some kitty icons on my site. 
-                        Well, you can tell that I am a big fan of cats. Yes, I also own a very adorable cat who loves looking at birds so much. Well, what else can I say about myself?. Oh, I just realized that skiing is fun after all the several attempts of fallings and hurting my legs. 
+                        This reminds me of this song that I played nonstop, called "Like Humans Do" by David Byrne. One of my favorite past hobbies was pencil-drawing random things — mostly portraits and sceneries. 
+                        When it comes to art, I love working on oil paintings the most. I think this is because of its smooth, glossy colors and it feels satisfying every time I apply oil paints on a blank canvas. Looking at wonderful stunning sceneries that our mother-earth offers us makes me feel wholeheartedly thankful to be alive, and that's why I also enjoy walking and immersing myself in nature. Ah! You must have also wondered why there are some kitty icons on my site. Well, you can tell that I am a big fan of cats. Yes, I also own a very adorable cat who loves looking at birds so much. Well, what else can I say about myself? Oh, I just realized that skiing is fun after several failed attempts and hurting my legs. 
                         Here's a touching quote I know from one of my favorite tv shows: <i>"Pain is the proof that you are alive"</i>
                         <br/><br/>
                         Feel free to check out my image carousel down below and other pages. Thank you for visiting my site! 🙂
