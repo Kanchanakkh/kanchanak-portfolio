@@ -7,7 +7,7 @@ import Footer from './Components/Footer/footer'
 import About from './Components/Pages/About/about'
 import Contact from './Components/Pages/Contact/contact'
 import Letuscode from './Components/Pages/Letuscode/letuscode'
-import Singlepost from './Components/Pages/Blog/singlePost'
+import Singlepost from './Components/Pages/blog/singlePost'
 import {MyProvider} from './Components/Context/index'
 // import ParticleBackground from './Components/Background/particlebackground'
 
