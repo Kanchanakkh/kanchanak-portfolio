@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
-import Blog from "./Components/Pages/Blog/blog"
+import Blog from "./Components/Pages/blog/blog"
 import Resume from './Components/Pages/Resume/resume'
 import Topbar from './Components/Navbar/topbar'
 import Footer from './Components/Footer/footer'
