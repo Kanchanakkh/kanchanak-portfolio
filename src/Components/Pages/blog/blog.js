@@ -4,7 +4,7 @@ import sanityClient from '../../../client'
 import { Card,Row, Col} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
-import catImage from '../../../Images/catwithwool.png'
+// import catImage from '../../../Images/catwithwool.png'
 
 const Blog = () => {
 
