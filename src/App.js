@@ -1,13 +1,13 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
-import Blog from "./Components/Pages/blog/blog"
+import Blog from "./Components/Pages/Blog/blog"
 import Resume from './Components/Pages/Resume/resume'
 import Topbar from './Components/Navbar/topbar'
 import Footer from './Components/Footer/footer'
 import About from './Components/Pages/About/about'
 import Contact from './Components/Pages/Contact/contact'
 import Letuscode from './Components/Pages/Letuscode/letuscode'
-import Singlepost from './Components/Pages/blog/singlePost'
+import Singlepost from './Components/Pages/Blog/singlePost'
 import {MyProvider} from './Components/Context/index'
 // import ParticleBackground from './Components/Background/particlebackground'
 
