@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kanchanak-portfolio/static/css/main.c70521b1.chunk.css",
-    "main.js": "/kanchanak-portfolio/static/js/main.16df8000.chunk.js",
-    "main.js.map": "/kanchanak-portfolio/static/js/main.16df8000.chunk.js.map",
-    "runtime-main.js": "/kanchanak-portfolio/static/js/runtime-main.3e29c587.js",
-    "runtime-main.js.map": "/kanchanak-portfolio/static/js/runtime-main.3e29c587.js.map",
-    "static/css/2.d45d6843.chunk.css": "/kanchanak-portfolio/static/css/2.d45d6843.chunk.css",
-    "static/js/2.742f84ac.chunk.js": "/kanchanak-portfolio/static/js/2.742f84ac.chunk.js",
-    "static/js/2.742f84ac.chunk.js.map": "/kanchanak-portfolio/static/js/2.742f84ac.chunk.js.map",
+    "main.css": "/kanchanak-portfolio/static/css/main.a06fe886.chunk.css",
+    "main.js": "/kanchanak-portfolio/static/js/main.89a178b3.chunk.js",
+    "main.js.map": "/kanchanak-portfolio/static/js/main.89a178b3.chunk.js.map",
+    "runtime-main.js": "/kanchanak-portfolio/static/js/runtime-main.8c369ef1.js",
+    "runtime-main.js.map": "/kanchanak-portfolio/static/js/runtime-main.8c369ef1.js.map",
+    "static/css/2.4be38407.chunk.css": "/kanchanak-portfolio/static/css/2.4be38407.chunk.css",
+    "static/js/2.6faca06c.chunk.js": "/kanchanak-portfolio/static/js/2.6faca06c.chunk.js",
+    "static/js/2.6faca06c.chunk.js.map": "/kanchanak-portfolio/static/js/2.6faca06c.chunk.js.map",
     "index.html": "/kanchanak-portfolio/index.html",
-    "static/css/2.d45d6843.chunk.css.map": "/kanchanak-portfolio/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.c70521b1.chunk.css.map": "/kanchanak-portfolio/static/css/main.c70521b1.chunk.css.map",
-    "static/js/2.742f84ac.chunk.js.LICENSE.txt": "/kanchanak-portfolio/static/js/2.742f84ac.chunk.js.LICENSE.txt",
+    "static/css/2.4be38407.chunk.css.map": "/kanchanak-portfolio/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.a06fe886.chunk.css.map": "/kanchanak-portfolio/static/css/main.a06fe886.chunk.css.map",
+    "static/js/2.6faca06c.chunk.js.LICENSE.txt": "/kanchanak-portfolio/static/js/2.6faca06c.chunk.js.LICENSE.txt",
     "static/media/Kanchanak_Khat_Resume.cdbb00e5.pdf": "/kanchanak-portfolio/static/media/Kanchanak_Khat_Resume.cdbb00e5.pdf",
     "static/media/Picture1.54a169b5.jpg": "/kanchanak-portfolio/static/media/Picture1.54a169b5.jpg",
     "static/media/Picture2.bb8de233.jpg": "/kanchanak-portfolio/static/media/Picture2.bb8de233.jpg",
@@ -29,10 +29,10 @@
     "static/media/welcome.a084eded.png": "/kanchanak-portfolio/static/media/welcome.a084eded.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e29c587.js",
-    "static/css/2.d45d6843.chunk.css",
-    "static/js/2.742f84ac.chunk.js",
-    "static/css/main.c70521b1.chunk.css",
-    "static/js/main.16df8000.chunk.js"
+    "static/js/runtime-main.8c369ef1.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.6faca06c.chunk.js",
+    "static/css/main.a06fe886.chunk.css",
+    "static/js/main.89a178b3.chunk.js"
   ]
 }
