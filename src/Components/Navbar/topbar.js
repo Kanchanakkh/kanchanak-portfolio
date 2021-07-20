@@ -26,7 +26,7 @@ const Topbar = () => {
                                 <div className="Name">
                                     <img className="topImgLeft" src={kittyLogoLeft} alt="Little cat hero logo"/>
                         
-                                    <Nav.Link style={{color: 'black'}} href="/kanchanak-portfolio">Kanchanak</Nav.Link>
+                                    <Link style={{textDecoration: 'none', color: 'black'}} to="/kanchanak-portfolio">Kanchanak</Link>
                                 </div>
                              </Navbar.Brand>
                 
@@ -35,26 +35,11 @@ const Topbar = () => {
                         <Navbar.Toggle  aria-controls='responsive-navbar-nav'/>
                         <Navbar.Collapse id='responsive-navbar-nav'>
                             <Nav>
-            {/* <div >
-                <ul className="topList">
-                    <li className={splitLocation[1] === "resume" ? "active" : ""}>
-                    <Nav.Link className="topListItem " href="/resume" className="topListItem">RESUME</Nav.Link>
-                    </li>
-                    <li className={splitLocation[1] === "let's code" ? "active" : ""}>
-                    <Nav.Link className="topListItem "  href="/let's code" className="topListItem">LET'S CODE</Nav.Link>
-                    </li>
-                    <li className={splitLocation[1] === "blog" ? "active" : ""}>
-                    <Nav.Link className="topListItem " href="/blog" className="topListItem">BLOG</Nav.Link>
-                    </li>
-                    <li className={splitLocation[1] === "contact" ? "active" : ""}>
-                    <Nav.Link className="topListItem" href="/contact" className="topListItem">CONTACT</Nav.Link>
-                    </li>
-                </ul>
-                </div> */}
+            
                                 <div >
                                     <ul className="topList">
-                                        <li className={splitLocation[1] === "resume" ? "active" : ""}>
-                                        <Link  to="/resume" className="topListItem">RESUME</Link>
+                                        <li className={splitLocation[1] === "qualifications" ? "active" : ""}>
+                                        <Link  to="/qualifications" className="topListItem">QUALIFICATIONS</Link>
                                         </li>
                                         <li className={splitLocation[1] === "letuscode" ? "active" : ""}>
                                         <Link  to="/letuscode" className="topListItem">LET'S CODE</Link>

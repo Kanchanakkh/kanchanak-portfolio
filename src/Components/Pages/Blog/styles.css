@@ -113,7 +113,8 @@
 
    
 }
-p:first-child::first-letter{
+
+.blog-content p:first-child::first-letter{
   color: rgb(23, 36, 226);
   float: left;
   font-family: Georgia;

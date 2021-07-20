@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 import Blog from "./Components/Pages/Blog/blog"
-import Resume from './Components/Pages/Resume/resume'
+import Qualifications from './Components/Pages/Qualifications/resume'
 import Topbar from './Components/Navbar/topbar'
 import Footer from './Components/Footer/footer'
 import About from './Components/Pages/About/about'
@@ -27,7 +27,7 @@ const App = () => {
             <Switch>
               <Route path="/blog/:slug" component={Singlepost}></Route>
               <Route path="/blog" component={Blog}></Route>
-              <Route path="/resume" component={Resume}></Route>
+              <Route path="/qualifications" component={Qualifications}></Route>
               <Route path="/contact" component={Contact}></Route>
               <Route path="/letuscode" component={Letuscode}></Route>
               <Route path="/kanchanak-portfolio" exact  component={About} ></Route>

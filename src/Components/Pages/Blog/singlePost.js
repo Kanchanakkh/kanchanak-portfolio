@@ -87,7 +87,9 @@ const Singlepost = () => {
                     {/* <img src={urlFor(singlePost.authorImage).url()} alt={singlePost.name} className="author-image-avatar" />
                     {singlePost.name} */}
                     <p className="post-date">{singlePost.publishedAt.toString().substr(0,10)}</p>
+
                     <div className="blog-content"><BlockContent  serializers={serializers} imageOptions={{  w: 660, h: 435, fit: "min" }} blocks={singlePost.body} projectId="c3bnpuzz" dataset="production"/></div>
+
                     <p><i>Images credit: Mech Serey Rath, photographer</i></p>
                 </section>
                 
