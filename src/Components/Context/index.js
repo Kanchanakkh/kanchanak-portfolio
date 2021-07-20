@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import myPDF from '../Pages/Resume/Kanchanak_Khat_Resume.pdf'
+import myPDF from '../Pages/Qualifications/Kanchanak_Khat_Resume.pdf'
 
 const MyContext = React.createContext()
 
